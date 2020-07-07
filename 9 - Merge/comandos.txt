@@ -1,0 +1,24 @@
+git checkout -b branch2
+----------------------------
+vi merge.txt
+----------------------------
+git add .
+---------------------------
+git commit -m "merge"
+--------------------------
+git lg                ---mostra historico de commit
+-------------------------
+git chechkout master
+-------------------------
+git merge branch2
+--------------------------
+git reset HEAD~1 --hard   ---volta commit
+-------------------------
+git lg
+-------------------------
+git checkout branch2 
+--------------------------
+git checkout master
+---------------------------
+git merge branch2 --no--ff
+

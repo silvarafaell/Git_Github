@@ -1,0 +1,18 @@
+git branch new-branch  --cria uma nova branch
+---------------------------------------------
+git branch             --listagem de branch
+--------------------------------------------
+git checkout new-branch   --começa a trabalhar na branch
+---------------------------------------------
+git add .
+---------------------------------------------
+git commit -m "commit na branch"
+--------------------------------------------
+git push --set-upstream origin new-branch  --cria branch remoto
+------------------------------------------------
+git checkout -                            ---volta para a referencia anterior(branch master)
+-------------------------------------------------
+git branch -d new-branch                    ---exclui a branch no reposito local
+----------------------------------------------------
+git push --delete origin new-branch                  --exclui a branch no repositorio remoto
+--------------------------------------------------

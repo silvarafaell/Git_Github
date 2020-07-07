@@ -1,0 +1,14 @@
+cd primeiro-repo
+------------------------
+git remote -v
+origin linkrepositorio (fetch)
+origin linkrepositorio (push)
+----------------------------
+git status
+----------------------------
+git add teste.txt teste2.txt
+----------------------------
+git commit -m "mensagem do commit"
+-------------------------------
+git push origin 
+--------------------------------
